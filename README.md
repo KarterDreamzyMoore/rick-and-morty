@@ -68,4 +68,4 @@ Use your knowledge of HTTP request by using Axios to fetch Rick and Morty inform
 
 [innerHTML](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
 
-[HTML Input Tag)(https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
+[HTML Input Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)

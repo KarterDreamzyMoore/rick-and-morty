@@ -1,0 +1,94 @@
+#result{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image{
+    border-radius: 50%
+}
+
+.image:hover{
+    border-radius: 50%;
+    cursor: pointer;
+    content: url('/assets/hover-pic.jpg');
+}
+
+#characterBox{
+    border: black solid 1px;
+    margin: 5px;
+    padding: 20px;
+    padding-right: 25px;
+    padding-left: 35px;
+    width: 200px;
+    height: 200px;
+    text-align: center;             
+    background-color: rgba(255,255,255,0.5);
+}
+
+#characterBox:hover{
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 5px, 10px;
+}
+
+body{
+    background-image: url('/assets/one.jpg');
+    background-position: center;
+}
+
+#control{
+    display: flex;
+}
+
+#previous:hover{
+    width: 203px;
+    height: 53px;
+    cursor: pointer;
+}
+
+#next:hover{
+    width: 203px;
+    height: 53px;
+    cursor: pointer;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 20px;
+    border: solid;
+    border: 3px;
+    border-color: black;
+}
+#input {
+    position: relative;
+    left: 470px;
+    border: solid;
+    border-width: 3px;
+}
+#search{
+    position: relative;
+    left: 500px;
+    border: solid;
+    border-width: 3px;
+}
+
+#filter-container{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(81, 140, 250);
+    font-size: 20px;
+    border: none;
+    position: relative;
+    left: 450px;
+}
+
+@font-face {
+    font-family: 'MISFITS_';
+    src:    url('assets/MISFITS_.TTF') format('truetype');
+}
+
+.name{
+    font-family: 'MISFITS_';
+    font-size: 25px;
+}

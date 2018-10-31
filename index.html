@@ -6,11 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rick and Morty</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <button>Get Character Data</button>
+
+    <div id="control">
+        <button id="previous" class="button"> Previous Page </button>
+        <button id="next" class="button"> Next Page </button>
+
+        <form action="" id="form">
+            <select name="Filters" id="filter-container">
+                    <option id="filters">Select Filter</option>
+                    <option id="filters">Name</option> 
+                    <option id="filters">Species</option>
+                    <option id="filters">Status</option>
+            </select>
+            <input type="text" id="input" class="button">
+            <input type="submit" value="Search" id="search" class="button">
+        </form>
+    </div>
     <div id="result"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
